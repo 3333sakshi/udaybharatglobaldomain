@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UdayBharatGlobal | Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+
+    /* Navbar */
+    .navbar {
+      background: linear-gradient(90deg, #ff8c00, #e65100);
+    }
+    .navbar-brand {
+      font-weight: 700;
+      font-size: 1.6rem;
+      color: #fff !important;
+      letter-spacing: 1px;
+    }
+    .nav-link {
+      color: #fff !important;
+      margin: 0 5px;
+      transition: all 0.3s ease;
+    }
+    .nav-link:hover {
+      color: #222 !important;
+      background: #fff;
+      border-radius: 4px;
+    }
+
+    /* Page Header */
+    .page-header {
+      background: url('about.jpeg') center/cover no-repeat;
+      background: linear-gradient(120deg, #e65100, #ff8c00);
+      color: #fff;
+      padding: 80px 0;
+      text-align: center;
+    }
+    .page-header h1 {
+      font-weight: 700;
+      font-size: 2.5rem;
+    }
+    .page-header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    /* Service Cards */
+    .services-section {
+      padding: 70px 0;
+    }
+    .service-card {
+      border: none;
+      border-radius: 15px;
+      overflow: hidden;
+      background-color: #fff;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .service-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+    .service-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    .btn-primary {
+      background-color: #ff5722;
+      border: none;
+    }
+    .btn-primary:hover {
+      background-color: #e64a19;
+    }
+
+    /* Footer */
+    footer {
+      background: #000;
+      color: #bbb;
+      padding: 50px 0;
+    }
+    footer a {
+      color: #ff8c00;
+      margin: 0 10px;
+      font-size: 1.4rem;
+      transition: 0.3s;
+    }
+    footer a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark shadow">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">UdayBharatGlobal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Our Services</h1>
+      <p>Providing world-class solutions for businesses and entrepreneurs globally.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section">
+    <div class="container">
+      <div class="row g-4">
+
+        <!-- Service Card 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card service-card h-100 shadow-sm">
+            <img src="img.jpeg" class="card-img-top" alt="Consulting">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Business Consulting</h5>
+              <p class="card-text text-muted">Expert guidance to scale your business, improve efficiency, and increase revenue.</p>
+              <a href="tel:743304444" class="btn btn-primary btn-sm">Contact US </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card service-card h-100 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" class="card-img-top" alt="Digital Solutions">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Digital Solutions</h5>
+              <p class="card-text text-muted">Custom e-commerce, app development, and IT solutions for global reach.</p>
+             <a href="tel:743304444" class="btn btn-primary btn-sm">Contact US </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card service-card h-100 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1556742044-3c52d6e88c62" class="card-img-top" alt="Networking">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Global Networking</h5>
+              <p class="card-text text-muted">Connect with international investors, partners, and business leaders.</p>
+              <a href="tel:743304444" class="btn btn-primary btn-sm">Contact US </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more services as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+      <p class="mb-3">Connect with Us</p>
+      <div>
+        <a href="https://www.facebook.com/profile.php?id=61580956004856"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/UdaybharatMart"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/udaybharat-mart-412532389/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/udaybharat_from_varanasi/"><i class="fab fa-instagram"></i></a>
+      </div>
+      <hr class="bg-light" />
+      <p>&copy; 2025 UdayBharatGlobal | Empowering Global Businesses | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
